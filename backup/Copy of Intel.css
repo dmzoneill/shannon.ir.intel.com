@@ -1,0 +1,651 @@
+/* MiddleColumnNew contains the Blue Background for Title writing. */
+/* TitleTextDiv this div contains the title of the page; i.e. IT Shannon; white lettering */
+/* MiddleColumnLinks contains hyperlinks across middle of page. */
+/* MiddleColumn will contain the different elements in webpage. */
+/* MiddleColumnLarge contains larger page elements like DirectionMap webpage. */
+
+
+
+
+
+/* style for picture at top of website */
+
+#topPicture{ 
+
+top: 0px; 
+left: 0px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+}
+
+#columnPicture{ 
+
+top: 120px; 
+left: 30px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+}
+
+
+
+/* style for paragraphs of text */
+
+p{FONT-SIZE: 14px; FONT-FAMILY: "verdana"; TEXT-DECORATION: none}
+
+p.text2{font-size:12px; FONT-FAMILY: "verdana"; line-height:1.5em} 
+
+p.twelvepx{FONT-SIZE: 12px; color:yellow}
+
+/* use this to create lines with minimum spacing between lines, boldfont */
+p.boldfont{FONT-SIZE: 14px; FONT-FAMILY: "verdana"; TEXT-DECORATION: none; font-weight:bold; line-height:0em}
+
+p.normalfont{FONT-SIZE: 14px; FONT-FAMILY: "verdana"; TEXT-DECORATION: none; line-height:0em}
+
+p.main {text-align:justify}
+p.yellow{color:yellow}
+p.red{color:red}
+p.green{color:green}
+p.white{color:#fff}
+p.black{color:#000}
+p.blue{color:blue}
+
+p.ar{text-align:right}
+p.centre{text-align:center}
+p.al{text-align:left}
+
+
+/* style for headers 1 */
+
+h1{FONT-SIZE: 14px; COLOR: black; FONT-FAMILY: "Verdana"; TEXT-DECORATION: none; text-align:center}
+
+/* style for headers 2 */
+
+h2{FONT-SIZE: 11px; COLOR: red; FONT-FAMILY: "Verdana"; TEXT-DECORATION: none; text-align:left}
+h3{FONT-SIZE: 13px; COLOR: white; FONT-FAMILY: "Verdana"; TEXT-DECORATION: none; text-align:center}
+h4{FONT-SIZE: 18px; COLOR:red; FONT-FAMILY: "Verdana"; TEXT-DECORATION: none; text-align:center}
+h5{FONT-SIZE: 12px; COLOR:green; FONT-FAMILY: "Verdana"; TEXT-DECORATION: none;text-align:left}
+h6{FONT-SIZE: 18px; COLOR:green; FONT-FAMILY: "Verdana"; TEXT-DECORATION: none; text-align:left}
+
+
+/* style for title of page */
+
+.titleText{white-space:nowrap;FONT-SIZE: 25px; COLOR: #fff; FONT-FAMILY: "Verdana"; TEXT-DECORATION: none; text-align:center; font-weight:bold;} 
+
+/* style for hyperlinks near the top of the page */
+
+a {font-family:Verdana; font-size:12px; COLOR: #808080; TEXT-DECORATION: none}
+a:link {color:#808080;}
+a:visited {color: #808080;}
+a:hover {text-decoration: underline; color: black}
+a:active {color: red;text-decoration: underline}
+
+
+.rlinks {font-family:verdana; font-size:14px; COLOR:blue; TEXT-DECORATION:underline}
+.rlinks:link {color:blue;}
+.rlinks:visited {color: blue;}
+.rlinks:hover {text-decoration: underline; color:black; font-weight:bold}
+.rlinks:active {color: red;text-decoration: underline}
+
+.rlinks2 {font-family:verdana; font-size:14px; COLOR:blue; TEXT-DECORATION:none}
+.rlinks2:link {color:blue;}
+.rlinks2:visited {color: blue;}
+.rlinks2:hover {text-decoration: underline; color:red;}
+.rlinks2:active {color: red;text-decoration: underline}
+
+.rlinks3 {font-family:verdana; font-size:14px; COLOR:blue; TEXT-DECORATION:none}
+.rlinks3:link {color:blue;}
+.rlinks3:visited {color: blue;}
+.rlinks3:hover {text-decoration: underline; color:red;}
+.rlinks3:active {color: red;text-decoration: none}
+
+
+
+/* style for left hyperlinks on blue background */
+
+.leftlinks{white-space:nowrap;FONT-SIZE: 12px; COLOR: #FFF; FONT-FAMILY: "Verdana"; TEXT-DECORATION: none} 
+.leftlinks:link {color: #FFF;}
+.leftlinks:visited {color: #FFF;}
+.leftlinks:hover {text-decoration: none; color: black; background: white; font-weight:bold}
+.leftlinks:active {color: red;text-decoration: none}
+
+
+/* style for middle hyperlinks below page title */
+
+.MiddleLinks{white-space:nowrap;FONT-SIZE: 11px; COLOR:#808080; FONT-FAMILY: "Verdana"; TEXT-DECORATION: none; font-weight:bold} 
+.MiddleLinks:link {color: #808080;}
+.MiddleLinks:visited {color:#808080;}
+.MiddleLinks:hover {text-decoration: underline; color: #000; font-weight:bold}
+.MiddleLinks:active {color: red;text-decoration: underline}
+
+
+/* style for left hyperlinks on blue background */
+
+.leftlinks2{FONT-SIZE: 12px; COLOR: #FFFFFF; FONT-FAMILY: "Verdana"; TEXT-DECORATION: none} 
+.leftlinks2:link {color: #FFF;}
+.leftlinks2:visited {color: #FFF;}
+.leftlinks2:hover {text-decoration: none; color: black; background: white; font-weight:bold}
+.leftlinks2:active {color: red;text-decoration: none}
+
+
+/* another style for hyperlinks */
+
+.links3{FONT-SIZE: 12px; COLOR: #FFFFFF; FONT-FAMILY: "Verdana";COLOR: blue; TEXT-DECORATION: underline; text-align:right} 
+.links3:link {color: blue;}
+.links3:visited {color: blue;}
+.links3:hover {FONT-SIZE: 18px; COLOR: #FFFFFF; FONT-FAMILY: "Verdana"; text-decoration: underline; color: blue; font-weight:bold}
+.links3:active {color: red;text-decoration: underline}
+
+
+/* style for date and time text */
+
+.clockText{white-space:nowrap; FONT-SIZE: 11px; COLOR:#808080; FONT-FAMILY: "Verdana"; TEXT-DECORATION: none; text-align:center; font-weight:bold;} 
+
+/* style for clockDiv div. This div is where the clock will be shown. */
+
+#clockDiv{
+
+top: 75px; 
+left: 20px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+width:110px;
+padding:0px;
+margin:0px;
+height:1em;
+
+}
+
+
+/* style for hometext div */
+
+#HomeText{
+
+top: 70px; 
+left: 740px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+
+}
+
+
+/* style for sitemrctext div */
+
+#SiteMRCText{
+
+top: 70px; 
+left: 795px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+
+}
+
+/* style for circuittext div */
+
+#CircuitText{
+
+top: 70px; 
+left: 880px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+}
+
+/* style for contactustext div */
+
+#ContactUsText{
+
+top: 70px; 
+left: 950px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+}
+
+/* style for sitemaptext div */
+
+#SiteMapText{
+
+top: 70px; 
+left: 1045px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+}
+
+
+/* outline the whole page*/
+
+#PageOutline{
+
+top: 5px; 
+left: 65px; 
+position: absolute; 
+z-index: 0; 
+visibility: show;
+
+width:1131px;
+padding:0px;
+border:1px solid black; border-bottom:0px; 
+margin:0px;
+height:60em;
+
+}
+
+
+/* outline the left column blue*/
+
+#LeftColumn {
+
+top: 168px; 
+left: 30px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+width:165px;
+padding:0px;
+border: 1px solid black; border-top:0px; border-left:0px;
+margin:0px;
+height:35em;
+background:#1e6198;
+
+}
+
+/* unordered list style used on blue left column */
+
+#LeftColumn ul{
+
+list-style-type:none;
+text-align:center;
+line-height:200%;
+padding:10px; padding-top:45px; padding-left:0px; padding-right:0px;
+margin:0px;
+
+}
+
+
+#LeftColumn a {
+
+display: block;
+color: #FFF;
+background-color: #1e6198;
+width: 165px;
+padding:0;
+text-decoration: none;
+FONT-SIZE: 12px; 
+COLOR: white; 
+FONT-FAMILY: "Verdana"; 
+text-align:center}
+}
+
+/* hover effect on blue left column */
+
+#LeftColumn a:hover
+{
+background-color: white;
+color: #000;
+font-weight: bold;
+}
+
+
+/* outline for the middle column */
+
+#MiddleColumn{
+
+display:inline;
+top: 210px; 
+left: 260px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+width:540px;
+padding:30px; padding-top:20px;
+border:0px solid gray;
+margin:0px;
+overflow:auto;
+height:40em
+
+
+
+
+}
+
+#MiddleColumn2{
+
+display:inline;
+top: 210px; 
+left: 260px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+width:540px;
+padding:30px; padding-top:20px;
+border:0px solid gray;
+margin:0px;
+overflow:auto;
+
+}
+
+
+#MiddleColumnLarge{
+
+display:inline;
+top: 210px; 
+left: 260px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+width:770px;
+padding:0px;
+border:0px solid gray;
+margin:0px;
+overflow:auto;
+height:47em
+
+}
+
+
+#MiddleColumnLayer{
+
+top: 525px; 
+left: 260px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+width:300px;
+padding:0px;
+border:0px solid gray;
+margin:0px;
+
+height:10em
+
+
+
+}
+
+
+#MiddleColumnLayer li{
+
+list-style-type:solid circle;
+text-align:left;
+padding:10px;
+margin:0px;
+line-height:10%;
+
+
+
+}
+
+
+
+#MiddleColumnLayer2{
+
+top: 526px; 
+left: 20px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+width:300px;
+padding:0px;
+border:0px solid gray;
+margin:0px;
+
+height:10em
+
+
+
+}
+
+
+#MiddleColumnLayer2 li{
+
+list-style-type:solid circle;
+text-align:left;
+padding:10px;
+margin:0px;
+line-height:10%;
+
+/*slenno2*/
+
+}
+
+#MiddlePicture{
+/*top: 200px;*/
+left: 1000px;
+position absolute;
+z-index: 1;
+visibilty: show;
+
+width: 1000px;
+/*padding: 50px;*/
+padding-left: 100px;
+height: 1em;
+}
+
+
+#MiddleColumnNew{
+
+top: 116px; 
+left: 260px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+width:600px;
+padding:5px;
+border:0px solid gray;
+margin:0px;
+height:1em;
+
+}
+
+
+/* this div contains the title of the page; i.e. IT Shannon; white lettering */
+
+#TitleTextDiv{
+
+top: 120px; 
+left: 270px;  
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+
+width:560px;
+padding:5px;
+border:0px solid gray;
+margin:0px;
+height:1em;
+
+}
+
+
+#MiddleColumnLinks {
+
+top: 160px; 
+left: 235px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+width:590px;
+padding:10px;
+border:0px solid black;
+text-align:center;
+margin:0px;
+height:1em;
+
+
+}
+
+
+/* unordered horizontal list style used on middle column */
+
+#MiddleColumnLinks li{
+
+display: inline;
+list-style-type: none;
+padding-bottom:0px; padding-top:0px; padding-left:0px; padding-right:10px;
+margin:0px;
+
+
+
+}
+
+
+#RightColumn{
+
+top: 116px; 
+left: 900px; 
+position: absolute; 
+z-index: 2; 
+visibility: show;
+
+width:200px;
+padding:0px;padding-top:10px;
+border: 1px solid black; border-top:0px; border-right:0px; 
+margin:0px;
+height:24em;
+background: #1e6198;
+
+}
+
+#RightColumn ul{
+
+list-style-type: none;
+text-align:center;
+line-height:200%;
+padding:0px;
+margin:0px;
+background: #1e6198;
+
+}
+
+
+#RightColumn a {
+
+display: block;
+color: #000;
+width: 200px;
+padding:0;
+text-decoration: underline;
+FONT-SIZE: 12px; 
+COLOR: #fff; 
+FONT-FAMILY: "Verdana"; 
+text-align:center}
+
+
+/* hover effect on blue left column */
+
+#RightColumn a:hover
+{
+background-color: #fff;
+color: #000;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+#RightColumnTop{
+
+top: 116px; 
+left: 900px; 
+position: absolute; 
+z-index: 2; 
+visibility: show;
+
+width:500px;
+padding:0px; padding-bottom:100px:
+border:0px solid gray; border-right:0px;
+margin:0px;
+height:1em;
+background:#1e6198;
+
+}
+
+
+#block_1{
+
+top: 125px; 
+left: 65px; 
+position: absolute; 
+z-index: 1; 
+visibility: show;
+
+	float: left;
+	margin-left: 15em;
+	margin-right: 200px;
+	border:1px solid black;
+	}
+
+#block_2
+
+	{
+	float: left;
+	margin-left: -100%;
+	width: 15em;
+	}
+#block_3
+	{
+	float: left;
+	margin-left: -200px;
+	width: 200px;
+	}
+
+.mainTextLocalInfo {
+	font-size: 12px;
+	font-family: "Lucida Sans", "Lucida Sans Unicode";
+	color: #333333;
+	text-decoration: none;
+	line-height: 22px;
+
+
+
+}
+
+
+.LocalInfoHeaders {
+	font-size: 18px;
+	font-family: "Lucida Sans", "Lucida Sans Unicode";
+	color: #fff;
+	text-decoration: none;
+	line-height: normal;
+	font-weight: bold;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #FF9900;
+	background-color: #0033CC;
+	padding-left:30px;
+	height: auto;
+
+
+}
+
+.LocalInfoHeaders2{
+
+font-size:16px;
+font-family: "Century Gothic";
+color: #000;
+font-weight:bold;
+font-style:italic; 
+text-align:right;
+
+}

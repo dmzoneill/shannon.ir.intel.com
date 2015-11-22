@@ -1,0 +1,27 @@
+
+
+window.onload = ready;
+
+function ready()
+{
+	var menu = "<ul>";
+	menu += "<li><a class=\"leftlinks\" href=\"\http://curam.ir.intel.com\">Curam</a></li>";
+	menu += "<li><a href=\"http://shannon.intel.com/backup/MRCSiteCommittee.htm\" class=\"leftlinks\">MRC Committee</a></li>";
+	menu += "<li><a href=\"http://shannon.intel.com/backup/LocalInformation.htm\" class=\"leftlinks\">Local Information</a></li>";
+	menu += "<li><a href=\"http://shannon.intel.com/backup/NewHireIndex.htm\" class=\"leftlinks\">New Hire Information</a></li>";
+	menu += "<li><a href=\"http://shannon.intel.com/backup/SiteServices.htm\" class=\"leftlinks\">Site Information</a></li>";
+	menu += "<li><a href=\"http://shannon.intel.com/backup/Health&Safety.htm\" class=\"leftlinks\">Health & Safety</a></li>";
+	menu += "<li><a href=\"https://employeecontent.intel.com/entrypage/default.aspx?nodeid=3c7c5e7a-f501-486e-aca9-e4247887c758\" class=\"leftlinks\">Training</a></li>";
+	menu += "<li><a class=\"leftlinks\" href=\"CID_SW.htm\">CID Software</a></li>";
+	menu += "<li><a class=\"leftlinks\" href=\"Siliconmain.htm\">CID Silicon</a></li>";
+	menu += "<li><a href=\"http://shannon.intel.com/backup/shannonCommunications.htm\" class=\"leftlinks\">Shannon Comms</a></li>";
+	menu += "<li><a href=\"http://shannon.intel.com/backup/UsefulLinks.htm\" class=\"leftlinks\">Useful Links</a></li>";
+	menu += "<li><a class=\"leftlinks\" href=\"fitness centre home.htm\">Shannon Fitness Centre</a></li>";
+	
+	
+	
+	menu += "</ul>";
+	
+	document.getElementById( 'LeftColumn' ).innerHTML =  menu;
+
+}

@@ -1,0 +1,380 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "WordPress Countdown plugin"
+msgstr ""
+
+#. Short description.
+msgid "WordPress Countdown plugin is an nice tool to create and insert countdown timers into your posts/pages and widgets."
+msgstr ""
+
+#. Screenshot description.
+msgid "<strong>WordPress Countdown</strong> Front-end"
+msgstr ""
+
+#. Screenshot description.
+msgid "<strong>WordPress Countdown</strong> Back-end"
+msgstr ""
+
+#. Found in description header.
+msgid "View our WordPress Countdown plugin Demo page:"
+msgstr ""
+
+#. Found in description header.
+msgid "Features of WordPress Countdown plugin"
+msgstr ""
+
+#. Found in description header.
+msgid "The features of WordPress Countdown Pro"
+msgstr ""
+
+#. Found in description header.
+msgid "If you found any bug in our WordPress Countdown plugin or have a question contact us at support@wpdevart.com."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Easy install and use</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Works perfectly with all versions of WordPress</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Fully Responsive WordPress Countdown timer</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to create unlimited Countdowns</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to create Countdown in pages/posts</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to create Countdown in widgets</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to type your own text in Countdown day field</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to type your own text in Countdown hour field</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to type your own text in Countdown minute field</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to type your own text in Countdown second field</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to select the action after Countdown time expired</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to type message after countdown timer expired</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to choose the Countdown timer position</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to type the Countdown timer distance from top</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to type the Countdown timer distance from bottom</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Uses CSS3</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>User friendly back-end for WordPress Countdown plugin</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Tested on popular WordPress themes</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to use Countdown with \"Circle\" buttons</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to use Countdown with \"Vertical Slider\" buttons</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to choose the Countdown text color</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to choose the Countdown background color</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to type the Countdown size</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to type the Countdown border width</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to type the Countdown border radius</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to type the Countdown text font-size</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Ability to select the Countdown Font family</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>39 awesome animation effects for Countdown timer</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Premium Support</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Our WordPress Countdown plugin allow website owners to create nice and functional Countdown timer just in a few minutes. This is the best way to create beautiful Countdown for your users.\n"
+"You can use our Countdown timer in your posts/pages and widgets. It's very easy to use and there isn't any need of coding knowledge for creating Countdowns."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"http://demo.wpdevart.com/wordpress-countdown-demo\">Countdown Demo</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Our WordPress Countdown plugin have a lot of useful features that you will like."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can upgrade WordPress Countdown plugin to <a href=\"http://wpdevart.com/wordpress-countdown-plugin/\">WordPress Countdown Pro</a> to add some features."
+msgstr ""
+
+#. Found in description paragraph, remaining content paragraph.
+msgid "We recommend you to take a look for this useful plugins - <a href=\"https://wordpress.org/plugins/polls-widget/\">WordPress Poll plugin</a>, <a href=\"https://wordpress.org/plugins/like-box\">WordPress Facebook like box</a>, <a href=\"https://wordpress.org/plugins/youtube-video-player\">WordPress YouTube</a>, <a href=\"https://wordpress.org/plugins/coming-soon-page\">WordPress Coming soon plugin</a>, <a href=\"https://wordpress.org/plugins/comments-from-facebook\">Facebook comments WordPress</a> ."
+msgstr ""
+
+#. Found in installation header.
+msgid "First download the WordPress Countdown plugin ZIP file."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Log in to your administration panel.   "
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to Plugins page, click on Add New, then click \"Upload Plugin\" .    "
+msgstr ""
+
+#. Found in installation list item.
+msgid "Then click \"Choose file\" then select the WordPress Countdown plugin zip file. "
+msgstr ""
+
+#. Found in installation list item.
+msgid "Install and activate our WordPress Countdown plugin.     "
+msgstr ""
+
+#. Found in installation list item.
+msgid "You can add Countdown timer from your pages/posts and widgets."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Installing the <strong>WordPress Countdown plugin</strong>"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "That's all, now you can create and insert Countdown timers into your pages/posts and widgets. If any problem occurs, contact us at <a href=\"mailto:support@wpdevart.com\">support@wpdevart.com</a>."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Also, we recommend you to take a look for this useful plugins - <a href=\"https://wordpress.org/plugins/polls-widget/\">WordPress Poll plugin</a>, <a href=\"https://wordpress.org/plugins/like-box\">WordPress Facebook like box</a>, <a href=\"https://wordpress.org/plugins/youtube-video-player\">WordPress YouTube</a>, <a href=\"https://wordpress.org/plugins/coming-soon-page\">WordPress Coming soon plugin</a>, <a href=\"https://wordpress.org/plugins/comments-from-facebook\">Facebook comments WordPress</a> ."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial version."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed on version 1.0.1 ."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed on version 1.0.3 ."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added featured plugin ."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "edit comments for developers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "edit some comments in code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "made some corrections."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "edited some text."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Edit some scripts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "made changes."
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I add Countdown timer in my pages/posts"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I add Countdown timer to my sidebar"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Our WordPress Countdown plugin is user friendly, but here you can see some frequently asked questions that can help you."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "After you installed the Countdown plugin you can go to your pages/posts and just click on Countdown shortcode button and add Countdown timer for your pages/posts."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"After you installed the plugin you need to check your widgets page(Appearance&gt;Widgets) and then drag and drop \"WordPress Countdown plugin\" widget into your sidebar.\n"
+"After that set your Countdown timer options. Now your Countdown widget is ready."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Dear users, we also recommend you to take a look for this useful plugins - <a href=\"https://wordpress.org/plugins/polls-widget/\">WordPress Poll plugin</a>, <a href=\"https://wordpress.org/plugins/like-box\">WordPress Facebook like box</a>, <a href=\"https://wordpress.org/plugins/youtube-video-player\">WordPress YouTube</a>, <a href=\"https://wordpress.org/plugins/coming-soon-page\">WordPress Coming soon plugin</a>, <a href=\"https://wordpress.org/plugins/comments-from-facebook\">Facebook comments WordPress</a> ."
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Wordpress Countdown step by step guide"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "WordPress Countdown plugin options"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Adding WordPress Countdown timer in your pages, posts"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Adding WordPress Countdown timer to your sidebar"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Day field text - Type here Day field text."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Hour field text - Type here Hour field text."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Minute field text - Type here Minute field text."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Second field text - Type here Second field text."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Countdown expire time - Type the Countdown expire time."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "After Countdown expired - Select the action after Countdown time expired."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Message after countdown expired - Type the message after countdown expired. "
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Countdown timer position - Select the Countdown position."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Distance from top - Type the Countdown distance from top."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Distance from bottom - Type the Countdown distance from bottom."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Countdown timer Buttons type - Select the Countdown buttons type."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Countdown timer text color - Choose the Countdown text color."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Countdown timer background color - Choose the Countdown background color."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Countdown timer Size - Type the Countdown size."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Countdown timer border width - Type the Countdown border width."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Countdown timer border radius - Type the Countdown border radius."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Countdown timer font-size - Type the Countdown text font-size."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Countdown timer Font family - Choose the Countdown Font family."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Countdown animation type - Choose the Countdown animation type you need."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "After installation activate the plugin, then go to your pages, posts and just click on Countdown shortcode button and add Countdown timer for your pages/posts."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid ""
+"After installation activate the plugin, then check your widgets page(Appearance&gt;Widgets) and then drag and drop \"WordPress Countdown plugin\" widget into your sidebar.\n"
+"After that set your Countdown timer options. That's all."
+msgstr ""

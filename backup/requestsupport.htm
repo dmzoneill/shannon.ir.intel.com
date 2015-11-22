@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<HTML>
+  
+<HEAD>
+<TITLE>Shannon IT DEPT</TITLE>
+
+    <LINK href="Copy of Intel.css" rel="stylesheet" type="text/css">
+
+<style>
+
+
+table.ITtable {table-layout:auto}
+
+
+</style>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+tday  =new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+function GetClock(){
+d = new Date();
+nday   = d.getDay();
+nmonth = d.getMonth();
+ndate  = d.getDate();
+nyeara = d.getYear();
+nhour  = d.getHours();
+nmin   = d.getMinutes();
+nsec   = d.getSeconds();
+
+if(nyeara<1000){nyeara=(""+(nyeara+11900)).substring(1,5);}
+else{nyeara=(""+(nyeara+10000)).substring(1,5);}
+
+     if(nhour ==  0) {ap = " AM";nhour = 12;} 
+else if(nhour <= 11) {ap = " AM";} 
+else if(nhour == 12) {ap = " PM";} 
+else if(nhour >= 13) {ap = " PM";nhour -= 12;}
+
+if(nmin <= 9) {nmin = "0" +nmin;}
+if(nsec <= 9) {nsec = "0" +nsec;}
+
+
+document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyeara+"\n "+nhour+":"+nmin+":"+nsec+ap+"";
+setTimeout("GetClock()", 1000);
+}
+window.onload=function(){GetClock();}
+//--></script>	
+
+ </HEAD>
+  
+<BODY onload="GetClock();">
+
+<div id = "PageOutline">
+
+<div id = "topPicture">
+<img src = "ImagesNew/PictureTop2.1.JPG">
+</div>
+
+
+
+<div id = "columnPicture">
+<img src = "ImagesNew/LeftColumnImage.jpg">
+</div>
+
+
+<div id = "HomeText">
+<a href = http://shannon.intel.com/backup/>Home</a>
+</div>
+    
+
+<div id = "SiteMRCText">
+<a href = http://shannon.intel.com/backup/MRCSiteCommittee.htm>Site MRC</a>
+</div>
+
+<div id = "CircuitText">
+<a href = https://employeeportal.intel.com/irj/portal>Circuit</a>
+</div>
+
+<div id = "ContactUsText">
+<a href = http://shannon.intel.com/backup/Contact.htm>Contact Us</a>
+</div>
+
+<div id = "SiteMapText">
+<a href = http://shannon.intel.com/backup/SiteMap.htm>Site Map</a>
+</div>
+
+
+
+
+<!--need this-->	
+<div id = "MiddleColumnLinks">
+
+<ul>
+<li> | </li>
+<li><a href="http://teamsites.ir.ith.intel.com/sites/ShannonBusinessCentre/_layouts/1033/reqacc.aspx?type=web" class="MiddleLinks">SBC</a></li>
+<li> | </li>
+<li><a href="http://shannon.intel.com/backup/ISOIPDEMEA.htm" class="MiddleLinks">PPD SW</a></li>
+<li> | </li>
+<li><a href="http://shannon.intel.com/backup/SiMain.htm" class="MiddleLinks">PPD SI</a></li>
+<li> | </li>
+<li><a href="http://shannon.intel.com/backup/SiteOperations.htm" class="MiddleLinks">SITE OPERATIONS</a></li>
+<li> | </li>
+<li><a href="http://shannon.intel.com/backup/IT.htm" class="MiddleLinks">IT</a></li>
+<li> | </li>
+<li><a href="https://employeecontent.intel.com/entrypage/default.aspx?nodeid=433515a7-514e-43ff-a5d3-9109318ebaab" class="MiddleLinks">HR</a></li>
+<li> | </li>
+</ul>
+
+</div>
+
+
+<!--need this-->
+<div id = "MiddleColumnNew">
+<img src = "ImagesNew/BlueHeading2Round.JPG">
+</div>
+<!--need this-->
+<div id = "TitleTextDiv">
+<p id="titleText">
+<p class="titleText">Shannon IT Department</p>
+
+
+</div>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img src = "IT_Support_procedure.gif" align = "middle" hspace ="250" height="720" width="570">
+
+<!--<div id = "MiddlePicture">
+<img src = "IT_Support_procedure.gif" align = "center">
+</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+<div id = "clockDiv">
+<div id="clockbox" class="clockText">
+</div>
+
+</div>
+
+
+
+</BODY>
+</HTML>

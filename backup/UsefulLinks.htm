@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<HTML>
+  
+<HEAD>
+<TITLE>Shannon Intranet - Useful Links</TITLE>
+
+    <LINK href="Copy of Intel.css" rel="stylesheet" type="text/css">
+
+<style>
+
+
+table.ITtable {table-layout:auto}
+
+
+</style>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+tday  =new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+function GetClock(){
+d = new Date();
+nday   = d.getDay();
+nmonth = d.getMonth();
+ndate  = d.getDate();
+nyeara = d.getYear();
+nhour  = d.getHours();
+nmin   = d.getMinutes();
+nsec   = d.getSeconds();
+
+if(nyeara<1000){nyeara=(""+(nyeara+11900)).substring(1,5);}
+else{nyeara=(""+(nyeara+10000)).substring(1,5);}
+
+     if(nhour ==  0) {ap = " AM";nhour = 12;} 
+else if(nhour <= 11) {ap = " AM";} 
+else if(nhour == 12) {ap = " PM";} 
+else if(nhour >= 13) {ap = " PM";nhour -= 12;}
+
+if(nmin <= 9) {nmin = "0" +nmin;}
+if(nsec <= 9) {nsec = "0" +nsec;}
+
+
+document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyeara+"\n "+nhour+":"+nmin+":"+nsec+ap+"";
+setTimeout("GetClock()", 1000);
+}
+window.onload=function(){GetClock();}
+//--></script>	
+
+ </HEAD>
+  
+<BODY onload="GetClock();">
+
+<div id = "PageOutline">
+
+<div id = "topPicture">
+<img src = "ImagesNew/PictureTop2.1.JPG">
+</div>
+
+
+
+<div id = "columnPicture">
+<img src = "ImagesNew/LeftColumnImage.jpg">
+</div>
+
+
+<div id = "LeftColumn">
+
+
+
+<p></div>
+
+
+
+<div id = "MiddleColumnNew">
+<img src = "ImagesNew/BlueHeading2Round.JPG">
+</div>
+
+<div id = "TitleTextDiv">
+<p id="titleText">
+<p class="titleText">Useful Links</p>
+</div>
+
+
+<div id = "MiddleColumn">
+	  
+				
+				            
+        <table width="280" border="0" cellspacing="5" cellpadding="2"> 
+			
+		
+              <tr>
+              <td height="21" width="55%" style="border-color: #808080" bordercolor="#333333" bgcolor="#FFFFFF">
+				
+				<font size="2">
+				
+				<a href="http://circuit.intel.com/" class ="rlinks2">
+				
+				<font size="3">Circuit</font></a> -<font face="Arial"> links here for Travel, 
+				Expenses, Conference Room booking, Conference calling, Pay, 
+				Development, Other Intel locations, Phonebook - <br>
+				just about 
+				everything except for the items below: </font></font></td>
+            </tr>
+			<tr>
+              <td height="22" width="55%" style="border-color: #808080" bordercolor="#333333" bgcolor="#FFFFFF">
+				
+				<font size="2">
+				<a class="rlinks2" href="http://www.shannonairport.com/home.aspx">Shannon 
+				Airport</a></font></td>
+            </tr>
+			<tr>
+              <td height="22" width="55%" style="border-color: #808080" bordercolor="#333333" bgcolor="#FFFFFF">
+				
+				<a href="http://shannon.intel.com/backup/eVacation/default.asp" class ="rlinks2">
+				
+				<font size="3">E-vacation 
+				tool</font></a><ul>
+					<li>
+					<a href="http://iss.intel.com">
+					<font color="#000000">Intel Software Supply (ISS) </font> </a></li>
+					<li>
+					<a href="http://toolan.intel.com">
+					<font color="#000000">Licensed Software</font></a></li>
+					<li><a href="http://gia.intel.com/"><font color="#000000">
+					Guest Internet Access</font></a><a href="http://pcsupply.intel.com/"><font color="#000000">
+					</font></a></li>
+					<li><a href="http://pcsupply.intel.com/">
+					<font color="#000000">PC Supply</font></a></li>
+					<li><a href="http://shannon.intel.com/backup/CanteenSpecials.htm">
+					<font color="#000000">Canteen Menu</font></a></li>
+					<li>
+					<a href="http://servicedesk.intel.com/sdcxuser/Intel/default.asp">
+					<font color="#000000">Technical Assistance Centre</font></a></li>
+					
+					</ul>
+				<p>&nbsp;</p>
+				<p>&nbsp;</td>
+            </tr>
+			           
+		</table>
+				
+</div>
+
+<div id = "clockDiv">
+<div id="clockbox" class="clockText">
+</div>
+<script type="text/javascript" src="menu.js"></script>
+
+</BODY>
+</HTML>

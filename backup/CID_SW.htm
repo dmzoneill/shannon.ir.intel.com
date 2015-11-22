@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<HTML>
+  
+<HEAD>
+
+    <TITLE>CID SW</TITLE>
+    <LINK href="Copy of Intel.css" rel="stylesheet" type="text/css">
+	
+<style>
+
+table.ITtable {table-layout:auto}
+
+span.ms-rtethemefontface-21
+	{font-family:"Arial","sans-serif";
+	}
+</style>
+
+<script src="equalcolumns.js" type="text/javascript"></script> 
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+tday  =new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+function GetClock(){
+d = new Date();
+nday   = d.getDay();
+nmonth = d.getMonth();
+ndate  = d.getDate();
+nyeara = d.getYear();
+nhour  = d.getHours();
+nmin   = d.getMinutes();
+nsec   = d.getSeconds();
+
+if(nyeara<1000){nyeara=(""+(nyeara+11900)).substring(1,5);}
+else{nyeara=(""+(nyeara+10000)).substring(1,5);}
+
+     if(nhour ==  0) {ap = " AM";nhour = 12;} 
+else if(nhour <= 11) {ap = " AM";} 
+else if(nhour == 12) {ap = " PM";} 
+else if(nhour >= 13) {ap = " PM";nhour -= 12;}
+
+if(nmin <= 9) {nmin = "0" +nmin;}
+if(nsec <= 9) {nsec = "0" +nsec;}
+
+
+document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyeara+"\n "+nhour+":"+nmin+":"+nsec+ap+"";
+setTimeout("GetClock()", 1000);
+}
+window.onload=function(){GetClock();}
+//--></script>	
+
+ </HEAD>
+  
+<BODY onload="GetClock();">
+
+<div id = "PageOutline">
+
+<div id = "topPicture">
+<img src = "ImagesNew/PictureTop2.1.JPG">
+</div>
+
+<div id = "columnPicture">
+<img src = "ImagesNew/LeftColumnImage.jpg">
+</div>
+
+
+
+
+
+<div id = "LeftColumn">
+
+
+
+
+<p></div>
+
+
+<div id = "MiddleColumnLinks">
+
+<ul>
+<li> | </li>
+<li> 
+			<p class="MsoNormal" align="left"><b>
+			<span lang="EN-IE" style="color: #1F497D"><font size="4">Mission
+			</font></span></b></p>
+			<p class="MsoNormal" style="text-indent: -18.0pt; margin-left: 36.0pt" align="left">
+			<span lang="EN-IE" style="font-family: 'Times New Roman',serif; color: #1F497D">
+			•<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span></span><b><span lang="EN-IE" style="color: #1F497D">Create a 
+			challenging and motivating place to work. </span></b></p>
+			<p class="MsoNormal" style="text-indent: -18.0pt; margin-left: 36.0pt" align="left">
+			<span lang="EN-IE" style="font-family: 'Times New Roman',serif; color: #1F497D">
+			•<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span></span><b><span lang="EN-IE" style="color: #1F497D">
+			Demonstrate leadership in technology and operational excellence</span></b></p>
+			<p class="MsoNormal" style="text-indent: -18.0pt; margin-left: 36.0pt" align="left">
+			<span lang="EN-IE" style="font-family: 'Times New Roman',serif; color: #1F497D">
+			•<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span></span><b><span lang="EN-IE" style="color: #1F497D">Enable 
+			compelling software solutions on <i>connected</i> platforms for our 
+			Customers.<i> </i></span></b></p>
+			<p class="MsoNormal" style="text-align: left">
+			<span lang="EN-IE" style="color: #1F497D">CID Vision: </span></p>
+			<p class="MsoNormal" style="text-align: left"><strong><i>
+			<span lang="EN-IE" style="font-size: 18.0pt; font-family: 'Trebuchet MS',sans-serif; color: #0071C5">
+			Enriching the World by Transforming Communications&nbsp;</span></i></strong></p>
+			<p style="text-align: left"><b>
+			<span lang="EN-IE" style="font-size: 11.0pt; font-family: Calibri,sans-serif; color: #1F497D">
+			CSIG Vision:</span><strong><i><span lang="EN-IE" style="font-size: 18.0pt; font-family: 'Trebuchet MS',sans-serif; color: #0071C5">
+			</span></i></strong></b></p>
+			<p style="text-align: left"><b><span class="ms-rtethemefontface-21">
+			<i><span lang="EN-IE" style="font-size: 18.0pt; color: #0071C5">
+			Transforming the infrastructure to connect, protect and enrich the 
+			digital lives of every person on earth</span></i></span></b></p>
+			<p class="MsoNormal" align="left">&nbsp;</p>
+			<p class="MsoNormal" align="left"><b>
+			<span lang="EN-IE" style="color: #1F497D">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+			</b></p>
+			<p>&nbsp;</li>
+</ul>
+
+</div>
+
+<div id = "MiddleColumnNew">
+<img src = "ImagesNew/BlueHeading2Round.JPG">
+</div>
+
+<div id = "TitleTextDiv">
+<p id="titleText">
+<p class="titleText">CID Software</div>
+
+
+
+
+<div id = "clockDiv">
+<div id="clockbox" class="clockText">
+</div>		
+
+<script type="text/javascript" src="menu.js"></script>
+
+</BODY>
+</HTML>
