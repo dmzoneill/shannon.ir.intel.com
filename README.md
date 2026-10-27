@@ -1,5 +1,9 @@
 # shannon.ir.intel.com
 
+<p align="center">
+  <img src=".github/logo.png" alt="shannon.ir.intel.com logo" width="128" />
+</p>
+
 A WordPress site for the Intel Shannon, Ireland campus intranet.
 
 ## Contents
