@@ -30,7 +30,7 @@ define('DB_NAME', '');
 define('DB_USER', '');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'your_db_password_here');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -50,14 +50,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '{)c+iL=`g41zD_]R3{LQZ}n<rHp->.![w1=&&+<bnL1Oe?(@UOQC:{TUCC6{S y5');
-define('SECURE_AUTH_KEY',  'LfKk]l?_4!(^S#eIqA)QU}/-@Ypdzn&xTnq-]Wq,q]Pbu<=I){ZlLsYhsA7Q&CC;');
-define('LOGGED_IN_KEY',    'rQktF=v>g*|URp&!tr@D;)4#FCF{^<j(dn^;7_-sH0>;2[yQIX.-3B/ $O:?eS /');
-define('NONCE_KEY',        'f4~PD=1#|++NgiRK>:.Q#>a!R_Kahi }omB.t& +0S&TSK%<mhn]b*&P~S!N9U+<');
-define('AUTH_SALT',        'y7n1!d`D}wpsb^2L2Cl*/I|=@T+nU}3p}7dd7}6)mM^ke,tg#_aJz}LebBO?9Svq');
-define('SECURE_AUTH_SALT', 'b}G~q!jSo`X14POuI]Q^0+i_f%GH#B)5Z|&nbFEFS7&ru`3U<<)Q*c}<WzvvfKzM');
-define('LOGGED_IN_SALT',   '5o#MnRPwn@OPH,jhw22pCPoXuA.qM82@R.Tmi|^p_UD@MV1WhB:<m!iPv3#{m9M6');
-define('NONCE_SALT',       '<Y6=bu-@i&#.R$D-=,b,:3rn;KQWuX+)N%J%BmDn/F@DVPc3=IB<&BtQi9:ctWT6');
+define('AUTH_KEY',         'put your unique phrase here');
+define('SECURE_AUTH_KEY',  'put your unique phrase here');
+define('LOGGED_IN_KEY',    'put your unique phrase here');
+define('NONCE_KEY',        'put your unique phrase here');
+define('AUTH_SALT',        'put your unique phrase here');
+define('SECURE_AUTH_SALT', 'put your unique phrase here');
+define('LOGGED_IN_SALT',   'put your unique phrase here');
+define('NONCE_SALT',       'put your unique phrase here');
 
 /**#@-*/
 
